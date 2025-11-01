@@ -1,4 +1,6 @@
-# Introducción
+# Python para científicos que no quieren programar
+
+## ¿Por qué Python?
 
 Si eres alguien que se dedica a trabajar principalmente en el laboratorio,
 lo más probable es que la idea de programar sea algo que puede ser apetecible,
@@ -74,6 +76,15 @@ trabajar con Python (de nuevo [xkcd obligatorio](https://xkcd.com/1987/)). Una v
 centrado en unas pocas herramientas que prácticamente todo el mundo usa y puedes recoger los frutos,
 pero primero tienes que llegar ahí.
 
+## ¿Cómo está organizado este libro?
+
+Este libro es una recopilación de ideas acerca de cómo usar Python para tareas relacionadas
+con la ciencia y la investigación. Cada capítulo es una excursión en un tema distinto, y
+la selección está completamente influenciada por mi experiencia usando Python en mi
+propia investigación.
+
+El contenido, el tono, y la organización van a ir cambiando con el tiempo. Veremos cómo
+de lejos llegamos.
 
 
 

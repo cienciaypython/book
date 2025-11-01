@@ -1,5 +1,5 @@
 # See docs at: https://mystmd.org/guide/frontmatter
-version: 1
+version: 1.0
 project:
   id: 0521711b-9e12-4107-8d35-d4bf0936acad
   title: Python para científicos que no quieren programar
@@ -7,7 +7,7 @@ project:
   # keywords: []
   authors: [anglyannet]
   github: https://github.com/cienciaypython/book
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+    
 site:
   template: book-theme
   # options:
