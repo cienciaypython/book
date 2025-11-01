@@ -1,4 +1,4 @@
-# Trabajar con datos en Python
+# Leer datos con Python
 
 Si eres un científico trabajas con datos. Citando
 a Mythbusters, *the only difference between screwing around
@@ -169,3 +169,21 @@ Resulta en:
 ```
 [1. 2. 3.] <class 'numpy.ndarray'>
 ```
+
+## El módulo csv
+
+Python viene con un módulo para leer ficheros separados por comas. Es una alternativa a
+tener que instalar pandas, pero requiere un poco más de esfuerzo. Por ejemplo, un ejemplo
+de código para leer un fichero csv es el siguiente:
+
+```python
+import csv
+with open('fichero.csv', newline='') as f:
+    reader = csv.reader(f)
+    data = [row for row in reader]
+```
+La interpretación es la siguiente: `csv.reader` crea un *iterator* que permite leer el
+fichero línea a línea. La última línea transforma el *iterator* en una lista.
+
+La diferencia entre usar `csv` y `pandas` es que `csv` no hace automáticamente la conversión
+a valores numéricos.
