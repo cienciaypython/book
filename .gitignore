@@ -208,3 +208,7 @@ __marimo__/
 
 # MyST build outputs
 _build
+
+
+# Mac stuff
+.DS_Store
