@@ -326,3 +326,17 @@ Las dos coordenads están normalizadas entre 0 y 1, de manera que (0,0) correspo
 a la esquina inferior izquierda, y (1,1) a la superior derecha. El argumento `fontsize`
 determina el tamaño de la fuente, en este case 12 puntos.
 
+## Un poco de historia
+
+Matplotlib fue creado John D. Hunter, motivado por la necesidad de encontrar una
+forma sencilla y flexible de representar electroencefalogramas durante su investigación
+postdoctoral. Hunter comenzó a trabajar
+en lo que se convertiría en Matplotlib en 2003, y pronto empezó a recibir contribuciones
+de múltiples usuarios interesados en desarrollar la librería. Tras su fallecimiento
+en 2012, el copyright pasa al Matplotlib development team liderado por Michael Droettboom.
+
+El uso de Matplotlib está muy extendido en la comunidad científica, hasta el punto
+que la NASA ha creado una beca para promover su desarrollo. Matplotlib es la herramienta
+que se usó para crear la primera imagen de un agujero negro y ha contribuido a la visualización y representación de datos en miles de artículos. John D. Hunter recibió
+de manera póstuma el primer Distinguished Service Award otorgado por la Python
+Software Foundation.
